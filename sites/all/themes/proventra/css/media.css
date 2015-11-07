@@ -1,0 +1,118 @@
+@charset "utf-8";
+@media only screen and (max-width:1199px) {
+	.signup-btn{ padding-right: 50px;}
+	.become{padding-left: 50px;}
+	.all-info{ width:83%;}
+	.member-profile li span{ width:65%;}
+}
+@media only screen and (max-width:1170px) {
+	.profile-box{ padding-right:100px;}
+}
+@media only screen and (max-width: 1024px) {
+	.profile-box{ padding-right:50px;}
+	.right-categories { padding-left: 50px;}
+	}
+
+@media only screen and (max-width: 1000px) {
+	.profile-box{ padding-right:0;}
+	.signup-btn{ padding-right:15px;}
+	.become{padding-left:15px;}
+	.signup-btn .news-btn{ padding:12px 30px;}
+	.all-info{ width:78%;}
+	.member-profile li span{ width:55%;}
+	.menuu .nav li a{ padding:10px 5px;}
+	}
+
+@media only screen and (max-width: 980px) {
+	.menuu .nav li a{ font-size:11px; padding: 10px 5px;}
+	.news-detail{ width:78%;}
+	.carousel-caption h1{ font-size:30px;}
+	.carousel-caption{ top:20%;}
+	.tweet-icon{ padding: 15px 9px; font-size:20px;}
+	.newsletter-wrp .container{ padding:0 15px;}
+}
+@media only screen and (max-width: 800px) {
+	.carousel-caption{ top:15%;}
+	.section .row {  margin: 0;}
+	.right-categories { padding-left: 30px;}
+	.all-news li { padding: 8px 15px;}
+	.tweet-heading{ width:77%;}
+	.tweet-heading p{ font-size:11px; margin-bottom:0px;}
+}
+@media only screen and (max-width: 767px) {	
+	.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9{ margin-bottom:10px;}
+	.container{ padding:0 15px;}
+	.carousel-caption h1{ font-size:25px;}
+	.carousel-caption{ top:5%;}
+	.logo {  padding-top: 20px; text-align: center;}
+	.top-menu{ background-position:center; text-align:center; background:#2D5C88;}
+	.logged-in .top-menu li { padding:0 5px !important;}
+	.top-menu.text-right ul{ margin-bottom:0px;}
+	.navbar-toggle {background: #2d5c88;  border: 0 none; border-radius:0; margin-top: -105px;}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{ background:#2D5C88;}
+	.nav.navbar-nav{ margin:0px; width:100%;}
+	nav{ margin-top:10px;}
+	.menuu li:hover a{box-shadow:none; }
+	
+	
+	.sigin-wrapper{ width:95%; padding:40px;}
+	.inputarea{ width:99%;}
+	.profile-wrp{ margin-bottom:20px; margin-top:30px;}
+	.profile-wrp .col-sm-6{ padding-bottom:20px;}
+	
+	.right-categories { padding-left: 15px;}
+	.col-sm-12.search-area {margin-bottom: 0;}
+	h1{ font-size:20px; line-height:25px;}
+	h2{ font-size:18px;}
+	h2::before{ width:40px;}
+	h3{ line-height:25px;}
+	.pagination{ margin-bottom:30px;}
+	.footer h3{ font-size:14px;}
+	
+	.who-we{ padding-bottom:40px;}
+	.gray-bg, .latest-news, .news-right{ margin-bottom:25px;}
+	.slider-box item{ background:#2D5C88;}
+	
+	.become{ font-size:18px;}
+	.signup-btn .news-btn {padding: 8px 20px; font-size:13px;}
+	.sent.text-right{ text-align:left;}
+	
+
+}
+@media only screen and (max-width:580px) {
+	.carousel-caption {background: #2d5c88;  left: 0; position: inherit;  top: 0;}
+	.carousel-caption h1 {  font-size: 18px;}
+	.slider-sub-heading{ padding: 0 15px; width:auto;}
+	.newsletter-wrp .container {  padding: 0 15px;}
+	.bot-header .col-md-8.col-sm-8{ text-align:center;}
+	.carousel-caption{ position:static;}
+	.signup-box{ background:#244d73;}
+	.become, .signup-btn{ display:block; width:100%; padding:10px 15px; text-align:center;}
+	.all-info{ width:75%;}
+	.profile-heading h5{ width:65%;}
+	.date-box{ width:30%;}
+	.downloads li{ display:block; width:100%;}
+	
+
+}
+@media only screen and (max-width:400px) {
+	.logo{ text-align:left;}
+	.navbar-toggle{ margin-right:0px;}
+	
+	.sigin-wrapper{padding:20px;}
+	h3{ font-size:18px;}
+	.sigin-wrapper h3{ margin-bottom:30px;}
+	.button-bar a{ margin-bottom:20px;}
+	.inputarea{ margin-bottom:15px;}
+	h1{ font-size:18px;}
+	h2{ font-size:16px;}
+	.all-info{ width:70%;}
+	.profile-heading h5, .date-box{ width:100%; text-align:left; margin-left:0px; margin-bottom:5px;}
+	.member-profile li label{ width:100%; margin-bottom:5px;}
+	.member-profile li span{ width:100%;}
+}
+
+@media only screen and (max-width:390px) {
+	.all-info{ width:65%;}
+
+}

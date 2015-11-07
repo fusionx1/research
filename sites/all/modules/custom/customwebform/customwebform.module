@@ -1,0 +1,22 @@
+<?php
+/*
+ * Hook form_alter()
+ */ 
+
+function customwebform_form_alter(&$form, &$form_state, $form_id){
+    if($form['#form_id']=='webform_client_form_30')
+    {
+global $user ;
+$uid = user_load($user->uid);
+$logged_user = $uid->mail;
+$form['submitted']['email']['#default_value'] = $logged_user ;
+$value = $_GET['uid'];
+$row_user = user_load($value);
+$email = $row_user->mail ;
+//drupal_set_message($email);
+$form['#node']->webform['emails'][1]['email'] = $email ;
+//$form['submitted']['email']['#attributes']['disabled'] = TRUE;
+//dsm($form);
+    }
+}
+

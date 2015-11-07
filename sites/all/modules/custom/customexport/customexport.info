@@ -1,0 +1,4 @@
+name = Custom Export
+description = provide user export link in admin/config page
+core = 7.x
+files[] = customexport.module

@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function customhybrid_ctools_plugin_directory($module, $type) {
+ if ($module == 'hybridauth' && $type == 'icon_pack') {
+    return 'plugins/icon_pack';
+  }
+}
+
+
+
+

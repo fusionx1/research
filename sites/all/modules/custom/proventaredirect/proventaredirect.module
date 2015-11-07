@@ -1,0 +1,15 @@
+<?php
+global $user ;
+    /**
+    * Implements hook_user_login().
+    */
+    function proventaredirect_user_login(&$edit, $account) {
+    // Don't redirect on password reset.
+    $current_menu_item = menu_get_item();
+    if ($current_menu_item['path'] == 'user/reset/%/%/%') {
+    return;
+    }
+    // Redirect user to profile page after the login.
+    $_GET['destination'] = 'proventa/home';
+    } 
+?>

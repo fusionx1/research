@@ -1,0 +1,4 @@
+name = proventaredirect
+description = Redirect after login
+core = 7.x
+files[] = proventaredirect.module

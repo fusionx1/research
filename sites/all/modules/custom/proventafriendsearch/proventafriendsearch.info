@@ -1,0 +1,4 @@
+name = Proventa Friend Search
+description = Redirect user page
+core = 7.x
+files[] = proventafriendsearch.module

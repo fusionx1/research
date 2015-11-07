@@ -1,0 +1,4 @@
+name = Custom Webform
+description = Custom webform submit
+core = 7.x
+files[] = customwebform.module

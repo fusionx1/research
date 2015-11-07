@@ -1,0 +1,20 @@
+<?php
+/**
+ * Implements hook_page_alter.
+ * @param type $page 
+ */
+ 
+function proventafrontpage_page_alter(&$page){
+  global $user;
+  $uid = $user->uid ;
+$arg = arg(1);
+//drupal_set_message($arg);
+if($arg == '' && $uid == ''){
+drupal_goto('<front>');
+}
+  $is_fron_page = drupal_is_front_page();
+  if($is_fron_page && $user->uid){
+    $redirect = '/proventa/home';
+    drupal_goto($redirect);
+  }
+}

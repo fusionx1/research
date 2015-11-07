@@ -1,0 +1,64 @@
+
+name = Proventra
+description = A flexible, recolorable theme with many regions.
+package = Core
+version = VERSION
+core = 7.x
+
+
+stylesheets[all][] = css/bootstrap.min.css 
+stylesheets[all][] = css/custome.css 
+stylesheets[all][] = css/font-awesome.css 
+stylesheets[all][] = css/media.css 
+stylesheets[all][] = css/newcustom.css
+stylesheets[all][] = css/style.css
+
+scripts[] = js/bootstrap.min.js
+scripts[] = js/bootstrap.js
+scripts[] = js/custom.js
+scripts[] = js/jquery.screwdefaultbuttonsV2.js
+
+
+
+regions[top] = Top
+regions[front] = Front
+regions[front_middle] = Front Middle
+regions[slider] = Slider
+regions[front_login] = Front Login
+regions[signup] = Signup
+
+regions[home_login] = Home Login
+regions[home_register] = Home Register
+
+regions[featured] = Featured
+regions[content] = Content
+
+regions[search] = Search
+regions[right_sidebar] = Right Sidebar
+
+regions[inner_right_sidebar_first]= Inner Right Sidebar First
+regions[inner_right_sidebar_last]= Inner Right Sidebar Last
+regions[left_sidebar] = Left Sidebar
+regions[right_sidebar] = Right Sidebar
+
+regions[triptych_first] = Triptych first
+
+
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer_left] = Footer Left
+regions[footer_right] = Footer Right
+
+regions[user_detail] = User Details
+settings[shortcut_module_link] = 0
+
+
+; Information added by Drupal.org packaging script on 2015-03-18
+version = "7.35"
+project = "drupal"
+datestamp = "1426707463"
+

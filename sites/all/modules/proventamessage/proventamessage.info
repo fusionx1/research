@@ -1,0 +1,4 @@
+name = Proventa Message
+description = Display user name
+core = 7.x
+files[] = proventamessage.module

@@ -1,0 +1,4 @@
+name = Custom Hybrid
+description = change icons
+core = 7.x
+files[] = custom_hybrid.module

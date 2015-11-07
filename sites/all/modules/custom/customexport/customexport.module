@@ -1,0 +1,27 @@
+<?php
+
+/*
+ * Hook menu()
+*/
+
+/*
+ *User Export
+ */
+
+function customexport_menu(){
+  $items = array();
+  $items['admin/config/system/export'] = array(
+                           'title'=>'User Export',
+                           'description'=>'Export user from this link',
+                           'page callback'=> 'custom_user_export',
+                           'type' => MENU_NORMAL_ITEM,
+                            'access callback'=> TRUE ,
+                           );   
+
+    }
+    
+  
+function custom_user_export(){ }
+    
+
+    

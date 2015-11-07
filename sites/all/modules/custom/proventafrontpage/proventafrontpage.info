@@ -1,0 +1,4 @@
+name = Proventa Front Page
+description = Set Front Page
+core = 7.x
+files[] = proventafrontpage.module
